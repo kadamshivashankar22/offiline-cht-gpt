@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+
+
+# AI model files
+*.gguf
+
+# Generated files
+sample.pdf
+sample.docx
+sample.png
+temp_*.pdf
+tmp_*.png
+
+
+# Ignore AI models
+models/
+*.safetensors
